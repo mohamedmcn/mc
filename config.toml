@@ -1,0 +1,20 @@
+baseURL = "https://github.com/mohamedmcn/WBC.git"
+languageCode = "en-us"
+theme="learn"
+title = "DESW"
+[outputs]
+home=['HTML','JSON','RSS']
+[params]
+themeVariant= "mio"
+
+#[[menu.shortcuts]] 
+#name = "<i class="fas fa-boxing-glove"></i>WBC"
+#identifier = "WBC"
+#url = "https://wbcboxing.com/en/"
+#weight = 10
+#hola
+[[menu.shortcuts]] 
+name = "<i class='fas fa-dumbbell'></i> WBC"
+identifier = "wbc"
+url = "https://wbcboxing.com/en/"
+weight = 10
